@@ -1,0 +1,24 @@
+{
+  "name": "league_app",
+  "version": "1.0.0",
+  "description": "Uses League of Legends API to track games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hiya-its-Aya/league_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hiya-its-Aya/league_app/issues"
+  },
+  "homepage": "https://github.com/Hiya-its-Aya/league_app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
