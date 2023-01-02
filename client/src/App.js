@@ -1,7 +1,8 @@
 
 import React from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import Search from "./components/Search";
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -15,9 +16,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>{!data ? "Loading..." : data}</p>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <h1>{!data ? "Loading..." : data}</h1>
       </header>
+      <Search  />
     </div>
   );
 }
